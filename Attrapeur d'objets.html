@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NFPW4VTK');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attrapeur d'Objets</title>
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFPW4VTK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+        <h1><marquee behavior="scroll" direction="right">
+       ATTRAPEUR D'OBJETS 
+       </marquee>
+<!-- Bouton en forme de point d'interrogation -->
+      <button class="help-btn" onclick="showInstructions()">INSTRUCTIONS
+      </button>
+
+<!-- Div pour afficher les instructions -->
+<div class="instructions" id="instructions">
+    <h2>INSTRUCTIONS</h2>
+    <p>Utilisez les flèches du clavier ← → pour déplacer le panier</p>
+    <p>ou utilisez les boutons de contrôle sur mobile</p>
+    <p>Attrapez les fruits 🍎🍌 pour gagner des points</p>
+    <p>Évitez les bombes 💣 qui vous font perdre une vie!</p>
+</div>
+
+ <link rel="stylesheet" href="style.css">
+        </h1>
+        
+        <div id="score-container">
+            <div>Score: <span id="score">0</span></div>
+            <div>Vies: <span id="lives">3</span></div>
+        </div>
+        
+        <div id="game-container">
+            <div id="basket"></div>
+            <div id="game-over">
+                <h2>Fin du Jeu</h2>
+                <p>Votre score: <span id="final-score">0</span></p>
+                <button id="restart-btn">Rejouer</button>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="start-btn">Commencer</button>
+        </div>
+        
+        <div class="touch-controls">
+            <div class="touch-btn" id="left-btn">←</div>
+            <div class="touch-btn" id="right-btn">→</div>
+        </div>
+    </div>
+        <footer>
+        <p>©2025.Par aY Hack(S.W.Abimaël Yaméogo)</p>
+    </footer>
+      <script src="script.js"></script>
+</body>
+</html>
